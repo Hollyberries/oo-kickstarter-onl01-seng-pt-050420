@@ -10,7 +10,7 @@ attr_reader :name, :backed_projects
  
  def back_project(project)
  project = Project.new(project)
- project.@backed_projects
+ project.@backed_projects.push
  end
   
 end
