@@ -1,9 +1,9 @@
 class Project
   
-attr_reader :backers
+attr_reader :title
 
 def initialize
-@backers = backers
+@title = title
 @backers = []
 end
   
